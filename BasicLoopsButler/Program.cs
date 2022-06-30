@@ -12,15 +12,16 @@
 //int i = int.Parse(Console.ReadLine());
 //for (int j = i; j >= 0; j--)
 //{
-//    Console.WriteLine(j);
+//    Console.Write(j + " ");
 //    if (j == 0)
 //    {
 //        break;
 //    }
 //}
+//Console.WriteLine();
 //for (int x = 0; x <= i; x++)
 //{
-//    Console.WriteLine(x);
+//    Console.Write(x + " ");
 //    if (i == x)
 //    {
 //        break;
@@ -38,7 +39,7 @@
 //    if (code == 13579)
 //    {
 //        Console.WriteLine("Welcome Home!");
-//            break;
+//        break;
 //    }
 //    if (attempt == 5)
 //    {
@@ -61,6 +62,8 @@ do
         break;
     }
 } while (attempts < 5);
+
+if (attempts == 5)
 Console.WriteLine("Too any unsuccessful attempts, please try again later.");
 
 
